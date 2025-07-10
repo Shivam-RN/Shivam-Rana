@@ -51,7 +51,7 @@ const Hero = () => {
 
          <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4">
           <a
-            href="https://drive.google.com/file/d/11_VFdAY3A0OWct7i1L2KlfC7UJea8AKq/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto"
@@ -64,7 +64,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=11_VFdAY3A0OWct7i1L2KlfC7UJea8AKq"
+            href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
             className="w-full sm:w-auto"
           >
             <MagicButton
