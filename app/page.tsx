@@ -1,3 +1,4 @@
+
 "use client";
 
 import Approach from "@/components/Approach";
@@ -15,22 +16,22 @@ const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       
-      {/* ✅ Top Bar: Image + Text on Left, Social Icons on Right */}
+     
       <div className="absolute top-4 left-0 right-0 z-50 px-4 sm:px-10 flex flex-col sm:flex-row justify-between items-center gap-4">
         
-        {/* Left: Profile Image + Intro Text */}
+       
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <img
-            src="/shivam.jpg"
-            alt="Shivam Rana"
-            className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-2xl"
-          />
-          <div className="px-6 py-3 bg-gradient-to-r from-purple-600 via-pink-500 to-red-400 text-purple rounded-full shadow-xl text-lg sm:text-xl font-semibold tracking-wide text-center sm:text-left">
-  👋 Hi, I'm Shivam Rana <br className="sm:hidden" />
-  <span className="hidden sm:inline"> — </span> —  Full Stack Developer
+  <img
+    src="/shivam.jpg"
+    alt="Shivam Rana"
+    className="w-40 h-40 lg:w-52 lg:h-52 rounded-full object-cover border-4 border-white shadow-2xl"
+  />
+  <div className="px-6 py-3 bg-gradient-to-r from-purple-600 via-pink-500 to-red-400 text-purple rounded-full shadow-xl text-lg sm:text-xl font-semibold tracking-wide text-center sm:text-left">
+    Shivam Rana <br className="sm:hidden" />
+    <span className="hidden sm:inline"> - </span> Full Stack Developer
+  </div>
 </div>
 
-        </div>
 
         {/* Right: Social Media Icons */}
         <div className="flex gap-3">

@@ -29,51 +29,64 @@ const Hero = () => {
     className={cn(
       "absolute inset-0",
       "[background-size:90px_90px]",
-      // ✅ Lighter color and thinner lines using rgba for transparency
       "[background-image:linear-gradient(to_right,rgba(228,228,231,0.2)_1px,transparent_4px),linear-gradient(to_bottom,rgba(228,228,231,0.2)_1px,transparent_4px)]",
       "dark:[background-image:linear-gradient(to_right,rgba(38,38,38,0.2)_1px,transparent_4px),linear-gradient(to_bottom,rgba(38,38,38,0.2)_1px,transparent_4px)]",
     )}
   />
-  {/* Radial fade effect */}
+  
   <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
 </div>
 
      <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
-            I’m a full-stack developer with 2+ years of project experience using the MERN stack. I build scalable web apps with a focus on clean UI, performance, and end-to-end functionality.
-          </p>
-
+          <p className="block uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
+  I’m a full-stack developer with 2+ years of project experience using the MERN stack. I build scalable web apps with a focus on clean UI, performance, and end-to-end functionality.
+</p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
          <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4">
-          <a
-            href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto"
-          >
-            <MagicButton
-              title="View CV"
-              icon={<FaFileAlt />}
-              position="left"
-            />
-          </a>
+  
+  <a
+    href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto"
+  >
+    <MagicButton
+      title="View CV"
+      icon={<FaFileAlt />}
+      position="left"
+    />
+  </a>
 
-          <a
-            href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
-            className="w-full sm:w-auto"
-          >
-            <MagicButton
-              title="Download CV"
-              icon={<FaDownload />}
-              position="left"
-            />
-          </a>
-        </div>
+  
+  <a
+    href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
+    className="hidden sm:block w-full sm:w-auto"
+  >
+    <MagicButton
+      title="Download CV"
+      icon={<FaDownload />}
+      position="left"
+    />
+  </a>
+
+  
+  <a
+    href="mailto:shivamrana1809@gmail.com"
+    className="block sm:hidden w-full"
+  >
+    <MagicButton
+      title="Let's get in touch"
+      icon={<FaLocationArrow />}
+      position="right"
+    />
+  </a>
+</div>
+
 
         </div>
       </div>
