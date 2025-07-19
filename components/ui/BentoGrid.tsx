@@ -70,6 +70,9 @@ export const BentoGridItem = ({
     const text = "shivamrana1809@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    },3000);
   };
 
 
@@ -103,7 +106,6 @@ export const BentoGridItem = ({
                     <img
                         src={spareImg}
                         alt={spareImg}
-                        //width={220} 
                         className="object-cover object-center w-full h-full"
                     />
                 )}
@@ -154,7 +156,7 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie  key={copied ? "playing" : "not-playing"} options={defaultOptions} height={200} width={400} />
               </div>
 
               <MagicButton
@@ -163,6 +165,7 @@ export const BentoGridItem = ({
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
+               
               />
             </div>
           )}

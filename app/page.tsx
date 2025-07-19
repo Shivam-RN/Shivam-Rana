@@ -14,7 +14,7 @@ import { socialMedia } from "@/data";
 
 const Home = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip" id="home">
       
      
       <div className="absolute top-4 left-0 right-0 z-50 px-4 sm:px-10 flex flex-col sm:flex-row justify-between items-center gap-4">

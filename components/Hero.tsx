@@ -10,7 +10,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 mb-[-100px]" id="home">
+    <div className="pb-20 pt-36 mb-[-100px]" >
      <div>
          <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
