@@ -50,7 +50,7 @@ const Hero = () => {
          <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4">
   
   <a
-    href="https://drive.google.com/file/d/1YqXVHo0bQH6bYqGJ4lNNdKcPEDwhxoyd/view?usp=drive_link"
+    href="https://drive.google.com/file/d/130pY_9xgIUlawtAfbjn9TBmBGqERxI79/view?usp=drive_link"
     target="_blank"
     rel="noopener noreferrer"
     className="w-full sm:w-auto"
