@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Jun, 2016, 6:34:21 PM
+    Author     : admin
+*/
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body {
+        font-size: 12px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #0a0a0a;
+
+    }
+    td{
+        border-color: white;
+    }
+
+    #jui-page {
+        margin-top: 10px;
+    }
+
+    /*.table td:nth-of-type(even) {*/
+    /*    border: 10px solid red;*/
+    /*}*/
+
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 8px;
+        font-size: 0.9em;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+
+    th {
+        text-align: left;
+        border: 1px solid #c3c3c3;
+        padding: 5px;
+    }
+
+    .table-bordered td {
+        text-align: left;
+        padding: 2px;
+        border-collapse: collapse;
+        border: 1px solid #c3c3c3 !important;
+        border-spacing: 0;
+    }
+
+
+    .table-responsive {
+        overflow-x: auto;
+        min-height: 0.01%;
+    }
+
+    .btn {
+        display: none;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
