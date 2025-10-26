@@ -11,6 +11,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import { socialMedia } from "@/data";
+import OtherProjects from "@/components/OtherProjects";
 
 const Home = () => {
   return (
@@ -55,6 +56,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
+        <OtherProjects />
         <Certificates />  
         <Approach />
         <Education/>

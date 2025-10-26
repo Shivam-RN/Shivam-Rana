@@ -1,6 +1,7 @@
 export const navItems = [
    { name: "Home", link: "#home" },
   { name: "Projects", link: "#projects" },
+  { name: "Other Projects", link: "#other-projects" },
   { name: "Certificates", link: "#certificates" },
    { name: "About Me", link: "#personal-info" },
   { name: "Contact", link: "#contact" },
@@ -110,6 +111,49 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.png", "/re.svg"],
     link: "https://file-store-amber.vercel.app",
     gitLink: "https://github.com/Shivam-RN/FileStore"
+  },
+];
+
+export const otherprojects = [
+  {
+    id: 1,
+    name:"SignaList",
+    title: "SignaList – Your Personal Stock Tracker & Market Insights",
+    img: "/signalistbg.png",
+    link: "https://signalist-stocks-tracker-app-psi.vercel.app",
+    gitLink: "https://github.com/Shivam-RN/Signalist-Stocks-Tracker-App"
+  },
+  {
+    id: 2,
+    name:"PingUp",
+    title: "PingUp – Social Networking Made Simple",
+    img: "/pingng.png",
+    link: "https://ping-up-sr.vercel.app",
+    gitLink: "https://github.com/Shivam-RN/Ping_up"
+  },
+  {
+    id: 3,
+    name:"QuickGPT",
+    title: "QuickGPT – A FullStack AI Chatbot Application",
+    img: "/quickgptbg.png",
+    link: "https://quick-gpt-sr.vercel.app",
+    gitLink:"https://github.com/Shivam-RN/QuickGPT"
+  },
+  {
+    id: 4,
+    name:"QuickAI",
+    title: "QuickAI – A FullStack AI SaaS Application",
+    img: "/quickaibg.png",
+    link: "https://quick-ai-sr.vercel.app",
+    gitLink: "https://github.com/Shivam-RN/QuickAI"
+  },
+  {
+    id: 5,
+    name:"Resume Mentor",
+    title: "Resume Mentor – AI-powered Resume Analyzer built with React & Puter.js.",
+    img: "/resumementorbg.png",
+    link: "https://ai-resume-analyzer-sr.vercel.app",
+    gitLink: "https://github.com/Shivam-RN/AI-Resume-Analyzer"
   },
 ];
 
