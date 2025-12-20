@@ -95,7 +95,7 @@ export const projects = [
     id: 3,
     name:"QuickAI",
     title: "QuickAI – AI-Powered Content & Image Generation Platform",
-    des: "QuickAI is a simple AI content and image creation app built with React, Express, Gemini API, Clerk, and Neon DB.",
+    des: "QuickAI is a simple AI content and image creation app built with Reactjs, Expressjs, Gemini API, Clerk, and Neon DB.",
     img: "/quickaibg.png",
     iconLists: ["/re.svg", "/tail.svg","express.png" ,"/clerk.png", "/neon.png"],
     link: "https://quick-ai-sr.vercel.app",
