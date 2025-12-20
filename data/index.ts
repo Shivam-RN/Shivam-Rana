@@ -1,7 +1,6 @@
 export const navItems = [
    { name: "Home", link: "#home" },
   { name: "Projects", link: "#projects" },
-  { name: "Other Projects", link: "#other-projects" },
   { name: "Certificates", link: "#certificates" },
    { name: "About Me", link: "#personal-info" },
   { name: "Contact", link: "#contact" },
@@ -94,13 +93,13 @@ export const projects = [
   },
   {
     id: 3,
-    name:"Sceevi",
-    title: "Sceevi – Screen Recording & Video Sharing Made Simple",
-    des: "Sceevi is a simple screen recording and sharing app built with Next.js, Bunny.net, and Arcjet.",
-    img: "/sceevihome.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/ooauth.png"],
-    link: "https://sceevi.vercel.app",
-    gitLink:"https://github.com/Shivam-RN/Sceevi"
+    name:"QuickAI",
+    title: "QuickAI – AI-Powered Content & Image Generation Platform",
+    des: "QuickAI is a simple AI content and image creation app built with React, Express, Gemini API, Clerk, and Neon DB.",
+    img: "/quickaibg.png",
+    iconLists: ["/re.svg", "/tail.svg","express.png" ,"/clerk.png", "/neon.png"],
+    link: "https://quick-ai-sr.vercel.app",
+    gitLink:"https://github.com/Shivam-RN/QuickAI"
   },
   {
     id: 4,
@@ -141,14 +140,6 @@ export const otherprojects = [
   },
   {
     id: 4,
-    name:"QuickAI",
-    title: "QuickAI – A FullStack AI SaaS Application",
-    img: "/quickaibg.png",
-    link: "https://quick-ai-sr.vercel.app",
-    gitLink: "https://github.com/Shivam-RN/QuickAI"
-  },
-  {
-    id: 5,
     name:"Resume Mentor",
     title: "Resume Mentor – AI-powered Resume Analyzer built with React & Puter.js.",
     img: "/resumementorbg.png",
