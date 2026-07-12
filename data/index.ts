@@ -86,7 +86,7 @@ export const projects = [
     name:"ConvoLearn",
     title: "ConvoLearn – AI Conversations for Smarter Learning",
     des: "ConvoLearn is a SaaS app for real-time, voice-based learning. Built with Next.js, Supabase, Stripe, and Vapi AI .",
-    img: "/home.png",
+    img: "/convolearnthumbnail.png",
     iconLists: ["/next.svg", "/supabase.png", "/ts.svg", "/vapi.png", "/c.svg"],
     link: "https://convo-learn.vercel.app",
     gitLink: "https://github.com/Shivam-RN/ConvoLearn-"
@@ -106,7 +106,7 @@ export const projects = [
     name:"FileStore",
     title: "FileStore – Share & Stream Files with Your Community",
     des: "A fast and simple file storage app to upload, organize, and share—built with Next.js 15 and Appwrite. .",
-    img: "/storeit.png",
+    img: "/filestorethumbnail.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.png", "/re.svg"],
     link: "https://file-store-amber.vercel.app",
     gitLink: "https://github.com/Shivam-RN/FileStore"
